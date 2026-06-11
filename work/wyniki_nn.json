@@ -1,0 +1,95 @@
+[
+  {
+    "model": "LightGBM",
+    "pr_auc": 0.2862018994515549,
+    "roc_auc": 0.9312911375067532,
+    "zdarzeniowo": [
+      {
+        "prog": 0.3,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 33.5,
+        "falszywe_serie": 9,
+        "falszywe_na_dobe": 0.08333333333333333
+      },
+      {
+        "prog": 0.5,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 33.0,
+        "falszywe_serie": 5,
+        "falszywe_na_dobe": 0.046296296296296294
+      },
+      {
+        "prog": 0.7,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 32.25,
+        "falszywe_serie": 6,
+        "falszywe_na_dobe": 0.05555555555555555
+      }
+    ]
+  },
+  {
+    "model": "MLP_cechy",
+    "pr_auc": 0.36191493613168035,
+    "roc_auc": 0.8587704593704106,
+    "zdarzeniowo": [
+      {
+        "prog": 0.3,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 54.5,
+        "falszywe_serie": 7,
+        "falszywe_na_dobe": 0.06481481481481481
+      },
+      {
+        "prog": 0.5,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 50.5,
+        "falszywe_serie": 8,
+        "falszywe_na_dobe": 0.07407407407407407
+      },
+      {
+        "prog": 0.7,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 47.75,
+        "falszywe_serie": 5,
+        "falszywe_na_dobe": 0.046296296296296294
+      }
+    ]
+  },
+  {
+    "model": "LSTM_sekwencje",
+    "pr_auc": 0.2055991460561911,
+    "roc_auc": 0.9752326654948421,
+    "zdarzeniowo": [
+      {
+        "prog": 0.3,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 43.75,
+        "falszywe_serie": 12,
+        "falszywe_na_dobe": 0.1111111111111111
+      },
+      {
+        "prog": 0.5,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 42.0,
+        "falszywe_serie": 11,
+        "falszywe_na_dobe": 0.10185185185185185
+      },
+      {
+        "prog": 0.7,
+        "epizody": 5,
+        "wykryte": 4,
+        "sr_wyprzedzenie_min": 40.25,
+        "falszywe_serie": 11,
+        "falszywe_na_dobe": 0.10185185185185185
+      }
+    ]
+  }
+]

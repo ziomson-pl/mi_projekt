@@ -1,0 +1,48 @@
+{
+  "charakterystyka": [
+    {
+      "mlyn": 3
+    },
+    {
+      "mlyn": 4
+    }
+  ],
+  "dryf": [
+    {
+      "mlyn": 3,
+      "droznosc_zdrowa_mediana": 0.506,
+      "droznosc_przed_mediana": 0.277,
+      "K_ARX_zdrowy_mediana": 0.19,
+      "K_ARX_ujemne_proc": 20.4,
+      "n_epizodow": 8
+    },
+    {
+      "mlyn": 4,
+      "droznosc_zdrowa_mediana": 0.917,
+      "droznosc_przed_mediana": 0.152,
+      "K_ARX_zdrowy_mediana": 0.372,
+      "K_ARX_ujemne_proc": 6.8,
+      "n_epizodow": 4
+    }
+  ],
+  "skok": [
+    {
+      "mlyn": 3,
+      "n_skokow": 15,
+      "FOPDT": {
+        "K": 1.007,
+        "T_min": 22.72,
+        "L_min": 1.04
+      }
+    },
+    {
+      "mlyn": 4,
+      "n_skokow": 15,
+      "FOPDT": {
+        "K": 0.819,
+        "T_min": 6.84,
+        "L_min": 0.42
+      }
+    }
+  ]
+}
