@@ -1,0 +1,6 @@
+
+# Artefakty kompilacji LaTeX (raport)
+raport/*.aux
+raport/*.log
+raport/*.out
+raport/*.toc
