@@ -4,3 +4,5 @@ raport/*.aux
 raport/*.log
 raport/*.out
 raport/*.toc
+raport/*.nav
+raport/*.snm
